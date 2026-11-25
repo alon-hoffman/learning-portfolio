@@ -15,7 +15,7 @@ Production build: `npm run build`; preview: `npm run preview`.
 
 ## Publish for free on GitHub Pages
 
-1. Create a repository (public for free GitHub Pages), copy this directory's contents into it and push to `main`.
+1. Push this repository to GitHub (public for free GitHub Pages). The workflow in `.github/workflows/pages.yml` at the repository root builds the app from the `learning-portfolio/` folder.
 2. In repository Settings → Pages → Build and deployment, choose GitHub Actions.
 3. Run the included Deploy portfolio workflow (or push a commit to main). The workflow builds and publishes `dist`.
 4. Open the actual Pages URL shown in the deployment workflow. Hash-based navigation and relative asset paths support project pages.
@@ -31,4 +31,4 @@ Production build: `npm run build`; preview: `npm run preview`.
 
 ## Verification
 
-In the build environment, npm registry DNS was unavailable. The source TSX was transpiled using the installed TypeScript compiler, and a separate offline preview was exercised using a locally available React 16 compatibility runtime and Chromium/Playwright. All four routes loaded, the main creature/engineering/coffee workflows and hive editing passed, and mobile home width was checked. The modern React 19 dependency installation, full TypeScript type check and Vite build must still be run in a connected environment. The offline HTML preview is for evaluation only; use the modern project for deployment.
+`npm run build` (TypeScript type check plus Vite build) passes with React 19 and Vite 6. The activities were exercised manually in a browser, including mobile width, import validation and recovery from corrupted saved data. The digital adaptations have not yet been tested with students.
