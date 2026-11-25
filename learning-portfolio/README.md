@@ -26,6 +26,7 @@ Production build: `npm run build`; preview: `npm run preview`.
 - Engineers: six game-based traits, exact 20-point completion, client-side image resize and local saving, sample opponent or import/export JSON.
 - Coffee: two controlled runs, learner-entered question and hypothesis, manually recorded measurements, graph and report. Model is illustrative, not real experimental measurements.
 - Hive: fixed seven-cell layout, 7–12 target relationships, editable descriptions, JSON export and printing.
+- Grading rubrics: a "how grading works" page (`#grading`) and a hand-graded rubric table (weights sum to 100, three levels, points per cell) in each assignment. Content lives in `src/rubrics.ts`; there is no score entry or saving.
 - Local storage only, no accounts or collection of student data. Images are compressed to data URLs and stored locally. Storage can be unavailable or quota-limited; export work to keep a copy. No real-time multi-user sharing.
 - Original classroom observations are distinguished from new digital adaptations, which have not yet been tested with students.
 
