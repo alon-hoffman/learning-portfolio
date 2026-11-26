@@ -233,7 +233,7 @@ export function Hive() {
 
       <div className="stats">
         <div className="stat"><strong>{completeNodes}/7</strong> מושגים מוסברים</div>
-        <div className="stat"><strong>{pairs.length}</strong> משושים נוגעים</div>
+        <div className="stat"><strong>{pairs.length}</strong> קשרים בין משושים</div>
         <div className="stat"><strong>{completeEdges}/{s.required}</strong> קשרים מוסברים</div>
       </div>
 
