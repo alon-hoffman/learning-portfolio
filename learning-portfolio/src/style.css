@@ -314,3 +314,6 @@ summary{cursor:pointer;font-weight:700}
   .project-head .art{display:none}
   .result{break-inside:avoid}
 }
+.sample-title{font-size:20px;margin:28px 0 10px;color:var(--brand-d)}
+.rubric.sample{margin:0 0 10px;padding-top:0;border-top:0}
+.rubric.sample tfoot{display:none}
