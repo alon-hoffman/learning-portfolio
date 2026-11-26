@@ -48,20 +48,10 @@ header nav a[aria-current=page]{background:var(--brand-l);color:var(--brand-d)}
 .band-in{max-width:1140px;margin:auto;padding-inline:20px;position:relative;z-index:1}
 .band h1{font-size:clamp(34px,6vw,58px);line-height:1.1;margin:10px 0 12px;letter-spacing:-.02em}
 .band .dot{color:var(--accent)}
-.band p{font-size:18px;line-height:1.6;max-width:600px;margin:0 0 24px;color:#ece8ff}
+.band p{font-size:18px;line-height:1.6;max-width:600px;margin:0;color:#ece8ff}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--brand-d)}
 .eyebrow.light{color:#d9d0ff}
-.searchbox{display:flex;gap:0;background:#fff;border-radius:14px;box-shadow:0 8px 24px #1f0f6a40;overflow:hidden;max-width:760px}
-.searchbox input,.searchbox select{border:0;background:#fff;padding:16px 18px;font-size:16px;color:var(--ink);min-width:0}
-.searchbox input{flex:1}
-.searchbox select{border-inline-start:1px solid var(--line);max-width:190px}
 .results{margin-top:-34px;position:relative}
-.crumbs{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:14px;padding:14px 18px;box-shadow:var(--shadow);margin-bottom:14px}
-.crumbs span{color:var(--muted);font-size:14px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-weight:600;font-size:14px;color:var(--muted)}
-.chip.on{background:var(--brand);border-color:var(--brand);color:#fff}
-.empty{background:#fff;border-radius:var(--radius);padding:30px;text-align:center}
 .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .project-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
 .project-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px #2b1a6b26}
@@ -269,8 +259,6 @@ summary{cursor:pointer;font-weight:700}
   .tabbar a[aria-current=page] svg{background:var(--brand-l);border-radius:10px;padding:2px;width:36px;height:26px}
   .band{padding:28px 0 56px}
   .band p{font-size:16px}
-  .searchbox{flex-direction:column}
-  .searchbox select{max-width:none;border-inline-start:0;border-top:1px solid var(--line)}
   .project-grid,.split,.two,.case-grid,.grading-grid,.stats{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr 1fr 1fr}
   .stat{font-size:12px;padding:8px}

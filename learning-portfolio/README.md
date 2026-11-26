@@ -22,7 +22,7 @@ Production build: `npm run build`; preview: `npm run preview`.
 
 ## Design
 
-Purple educational-portal look (search band, filter chips, white cards) with a mobile bottom tab bar; layouts are responsive down to 360px. System fonts only, no external requests.
+Purple educational-portal look (purple header band, white cards) with a mobile bottom tab bar; layouts are responsive down to 360px. System fonts only, no external requests.
 
 ## Version 1 scope
 
