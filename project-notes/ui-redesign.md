@@ -53,4 +53,4 @@ Original repo had no tests; `npm run build` to be recorded.
 
 ## Decisions for Alon after delivery
 
-- Coffee run B shows "החלב כבר בכוס" at 10:00 (pre-existing wording, left alone). Fix it? Recommend yes, small.
+- (none)
